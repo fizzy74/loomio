@@ -92,12 +92,10 @@ GEM
       tzinfo (~> 1.1)
     addressable (2.6.0)
       public_suffix (>= 2.0.2, < 4.0)
-    ahoy_email (0.5.2)
-      actionmailer
-      activerecord
+    ahoy_email (1.1.0)
+      actionmailer (>= 5)
       addressable (>= 2.3.2)
       nokogiri
-      railties
       safely_block (>= 0.1.1)
     ahoy_matey (3.0.0)
       activesupport (>= 5)
@@ -345,7 +343,7 @@ GEM
     mime-types-data (3.2019.0331)
     mimemagic (0.3.3)
     mini_magick (4.9.4)
-    mini_mime (1.0.1)
+    mini_mime (1.0.2)
     mini_portile2 (2.4.0)
     minitest (5.11.3)
     msgpack (1.2.10)
@@ -383,7 +381,7 @@ GEM
     premailer-rails (1.10.2)
       actionmailer (>= 3, < 6)
       premailer (~> 1.7, >= 1.7.9)
-    public_suffix (3.1.0)
+    public_suffix (3.1.1)
     puma (4.0.1)
       nio4r (~> 2.0)
     rack (2.0.7)
@@ -588,7 +586,7 @@ DEPENDENCIES
   activeadmin (~> 2.1.0)
   activerecord-import (= 1.0.2)
   activerecord-nulldb-adapter
-  ahoy_email (~> 0.5.2)
+  ahoy_email (~> 1.1.0)
   ahoy_matey (~> 3.0.0)
   autoprefixer-rails
   awesome_print
